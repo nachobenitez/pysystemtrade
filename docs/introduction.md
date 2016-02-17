@@ -31,7 +31,7 @@ data.get_instrument_list()
 And what kind of data can we get for them?
 
 ```python
-data.get_instrument_price("EDOLLAR").tail(5)
+data.get_daily_price("EDOLLAR").tail(5)
 ```
 
 ```
